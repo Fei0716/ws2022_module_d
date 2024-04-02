@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WorldSkills: Games</title>
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+    <div id="app">
+        <app-header></app-header>
+        <main class="container my-4" role="main">
+            <router-view></router-view>
+        </main>
+        <app-footer></app-footer>
+    </div>
+
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/vue/vue.global.js"></script>
+    <script src="./vendor/vue/vue-router.global.js"></script>
+    <script src="./src/auth.js"></script>
+    <script src="./src/main.js" type="module"></script>
+</body>
+</html>
